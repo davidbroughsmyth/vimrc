@@ -1,5 +1,5 @@
 script-names.vim-scripts.org.json
 .netrwhist
 *.swp
-.vim/bundle
+.vim/plugged
 .DS_Store
