@@ -8,6 +8,8 @@ set autoindent
 set backspace=indent,eol,start
 set smarttab
 
+set rnu
+
 " Tab things
 set tabstop=4 " How many columns one tab represents
 set softtabstop=4 " How many columns a tab press creates
@@ -24,6 +26,9 @@ Plug 'Shougo/neocomplete.vim'
 Plug 'tpope/vim-commentary'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'nathanaelkane/vim-indent-guides'
+Plug 'andy-morris/happy.vim'
+Plug 'andy-morris/alex.vim'
+Plug 'godlygeek/tabular'
 
 call plug#end()
 
@@ -35,4 +40,4 @@ autocmd BufWritePre * StripWhitespace
 let g:indent_guides_start_level = 2
 let g:indent_guides_guide_size = 1
 
-
+colorscheme delek
