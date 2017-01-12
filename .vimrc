@@ -10,10 +10,12 @@ set smarttab
 
 set rnu
 
+set guifont=FiraCode-Retina:h12
+
 " Tab things
-set tabstop=4 " How many columns one tab represents
-set softtabstop=4 " How many columns a tab press creates
-set shiftwidth=4 " Reindent operation shift amount
+set tabstop=2 " How many columns one tab represents
+set softtabstop=2 " How many columns a tab press creates
+set shiftwidth=2 " Reindent operation shift amount
 set expandtab
 set ruler
 
