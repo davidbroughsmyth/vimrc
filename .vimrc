@@ -24,7 +24,7 @@ set expandtab
 set ruler
 
 " Load plugins
-call plug#begin('~/vimrc/.vim/plugged')
+call plug#begin('.config/vimrc/.vim/plugged')
 
 Plug 'Valloric/YouCompleteMe'
 Plug 'rhysd/vim-clang-format'
